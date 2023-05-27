@@ -713,7 +713,6 @@ display: flex;
 .modal-privacy-policy{margin-bottom: 24px;}
 
 .contact-form-checkbox-wrapper {
-  display: flex;
   align-items: center;
   line-height: 1.17;
   letter-spacing: 0.04em;
