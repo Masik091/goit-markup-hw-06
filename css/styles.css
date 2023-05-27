@@ -658,6 +658,7 @@ button {
 }
 
 .faked-checkbox{
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -665,7 +666,6 @@ button {
   height: 16px;
   border: 1px solid #2e2f42;
   border-radius: 2px;
-display: inline-flex;  
 }
 
 .checkbox-icon {
