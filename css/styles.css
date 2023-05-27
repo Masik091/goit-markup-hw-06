@@ -506,7 +506,7 @@ button {
 }
 
 .footer-subscribe-container{
-  display: flex;
+  display:inline-block;
   align-items: baseline;
 }
 
