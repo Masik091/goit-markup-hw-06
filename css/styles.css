@@ -533,6 +533,7 @@ display: flex;
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
+    font: size 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding-left: 16px;
