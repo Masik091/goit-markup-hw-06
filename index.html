@@ -470,7 +470,7 @@
           </p>
         </div>
 
-        <div>
+        <div class="footer-social-media-container">
           <p class="social-media-title">Social media</p>
           <ul class="social-list-footer list">
             <li class="social-item">
@@ -523,9 +523,33 @@
             </li>
           </ul>
         </div>
+
+        
+        <div class="footer-subscribe-container">
+          <p class="footer-form-title">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-label">
+              <input class="footer-input" 
+              name="user-email"
+              type="email"
+              placeholder="E-mail">
+            </label>
+            <button class="footer-subscribe-btn" type="submit">
+              Subscribe
+              <svg class="send-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+
+
+
+
+
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -624,7 +648,7 @@
               value="true" 
               required
             />
-            <label class="contact-form-checkbox-wrapper" for="user-privacy">I accept the terms and conditions of the
+            <label class="contact-form-checkbox-wrapper" for="user-privacy">
             <span class="faked-checkbox">
               <svg class="checkbox-icon" width="10" height="8">
               <use
@@ -635,7 +659,7 @@
               ></use>
             </svg>
           </span>
-            <a href="" class="privacy-policy-link"> Privacy Policy </a>
+          I accept the terms and conditions of the&#160 <a href="" class="privacy-policy-link"> Privacy Policy </a>
           </label>
         </div>
 
