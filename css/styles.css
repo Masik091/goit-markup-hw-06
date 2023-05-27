@@ -662,7 +662,7 @@ display: flex;
   width: 100%;
   height: 40px;
   padding-left: 38px;
-  border: 1px solid rgba(46, 47, 66, 0.2);
+  border: 1px solid rgba(46, 47, 66, 0.4); 
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
@@ -721,14 +721,14 @@ display: flex;
   color: var(--label-color);
 }
 
-.faked-checkbox{
+.faked-checkbox {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   margin-right: 8px;
   width: 16px;
   height: 16px;
-  border: 1px solid #2e2f42; 
+  border: 1px solid rgba(46, 47, 66, 0.4); 
   border-radius: 2px;
   fill: transparent;
 }
