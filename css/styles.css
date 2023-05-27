@@ -630,7 +630,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4); 
-  border: 1px solid rgba(46, 47, 66, 0.2)
+  border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 4px;
   background-color: transparent;
   outline: transparent; 
@@ -658,11 +658,11 @@ button {
 }
 
 .faked-checkbox{
-  display: inline-flex;
+  display: inline-flex; 
   align-items: center;
   justify-content: center;
   fill: transparent;
-  width: width: 16px;
+  width: 16px;
   height: 16px;
   border: 1px solid #2e2f42;
   border-radius: 2px;
