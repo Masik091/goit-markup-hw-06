@@ -680,6 +680,7 @@ display: flex;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  fill: #2E2F42;
 }
 .modal-contact-form-input:focus + .contact-form-input-icon{fill: #4d5ae5;}
 
@@ -732,9 +733,7 @@ display: flex;
   fill: transparent;
 }
 
-.checkbox-icon {
-  cursor: pointer;
-}
+
 .privacy-policy-link {
   color: var(--social-media-link-color);
 }
@@ -747,13 +746,11 @@ display: flex;
 }
 
 
-.contact-form-checkmark-icon {
-  opacity: 0;
-}
 
 .contact-form-sumbit {
   display: block;
   border: none;
+  margin: auto;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
